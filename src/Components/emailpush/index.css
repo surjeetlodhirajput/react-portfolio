@@ -1,0 +1,88 @@
+.email-push{
+    position: absolute;
+    color:#012012;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    border-radius: 4%;
+    font-stretch:extra-expanded;
+    font-variant-east-asian: jis78;
+    background: #22ff40;
+    padding-bottom: 0;
+    top: 25%;
+    font-size: 33px;
+    left:34%;
+    font-weight: 400;
+    width: 450px;
+    height: 330px;
+    z-index:10;
+}
+
+.email-cross{
+    position: absolute;
+    font-size: 30px;
+    right: 10px;
+    padding: 0;
+    top: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.error{
+    background-color: #ff2020;
+}
+.email-push svg{
+    font-size: 150px;
+    position:absolute;
+left:140px;
+top: 80px;
+animation: ring 0.2s infinite ease-in-out;
+transition-duration: 3s;
+}
+
+@keyframes ring{
+    from{
+        transform: rotate(-20deg);
+    }
+    25%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}
+@media only screen and (max-width:670px){
+    .email-push{
+        
+        font-size: 40px;
+        width: 200px;
+        height: 200px;
+        left: max(30%,10px);
+        font-size: 20px;
+    }
+    .email-push svg{
+        top: 40%;
+        left: 72px;
+    }
+    .email-cross{
+    }
+    .email-push svg{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:394px){
+    .email-push{
+        left: 10px;
+        width: 200px;
+        left: 13%;
+    }
+    .email-push svg{
+        
+    }
+
+}

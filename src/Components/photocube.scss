@@ -1,0 +1,26 @@
+.profile-pic{
+    
+      position: absolute;
+      left: 68%;
+      top: 40%;
+      color: white;
+      transform: translateY(-50%);
+      width: 26%;
+      height: 30%;
+   }
+   @media only screen and (max-width: 560px) {
+      .profile-pic{
+            top: 22%;
+            left: 40%;
+
+      }      
+   }
+   @media only screen and (max-width: 350px) {
+      .profile-pic{
+            top: 21%;
+            left: 27%;
+            width:80%;
+
+      }      
+   }
+  

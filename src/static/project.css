@@ -1,0 +1,12 @@
+.project-flex{
+    margin-top: 27px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    flex-shrink: 1 1 300px;
+    justify-content: space-around;
+    background: transparent;
+}
+.circular{
+position: absolute;
+}

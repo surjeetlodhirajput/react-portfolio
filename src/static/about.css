@@ -1,0 +1,185 @@
+.about-top-flex{
+   display: flex;
+   padding-top: 4px;
+   flex-wrap: wrap ;
+   width: 83vw;
+   position: absolute;
+   gap: 1%;
+   height: auto;
+   font-weight:300;
+   font-size:1.6vw;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   flex-direction:row;
+   justify-content: space-around;
+   margin-left: 8%;
+   justify-content: center;
+   color: white;
+}
+.ceartificates{
+   height: auto;
+   letter-spacing: 1px;
+   font-variant: small-caps;
+   font-stretch: extra-condensed;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   gap: 10px;
+}
+.ceartificates>h2{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 200;
+   margin-top: 10%;
+}
+.info-arrow{
+   overflow:hidden;
+   width: 100%;
+   height: 100px;
+   height: 100%;
+
+}
+.left-arrow-hk{
+   position: absolute;
+   left: 0;
+   z-index: -1;
+}
+.left-arrow>img{
+   z-index: 0;
+}
+.left-arrow-main{
+   z-index: 0;
+}
+.mkls{
+   position: absolute;
+   margin-left:160px;
+   font-size: 35px;
+   margin-top:40px;
+   color: black;
+   z-index: 1;
+
+}
+.rkls{
+   position: absolute;
+   font-size: 35px;
+   margin-top:40px;
+   margin-right: 240px;
+   color: black;
+   z-index: 1;
+
+}
+.right-arrow-hk{
+   position: absolute;
+}
+.left-arrow{
+   display: flex;
+   margin-left: -2000px;
+   transition: 1s ease-in-out;
+}
+.right-arrow{
+   display: flex;
+   flex-direction: row-reverse;
+   transition:2s ease-in-out;
+   margin-left:2000px;
+}
+.left-about-top{
+ width: 49%;   
+ height: 400px;
+ padding-top: 24px;
+}
+.right-about-top{
+    width: 49%;
+    height: 400px;   
+   }
+
+   #myprofile{
+      position: absolute;
+      margin-left: -90px;
+      margin-top: 9px;
+      width: auto;
+   }
+   #imagebackground{
+      position: absolute;
+      margin-top: 6%;
+      width: auto;
+      margin-left: 40px;
+   }
+   @media only screen and (max-width:1091px){
+      .about-top-flex{
+         display: flex;
+         flex-direction: column;
+      }
+      .left-about-top{
+         height: 300px;
+         width: 100%;
+
+         height: auto;
+         font-size: 20px;
+      }
+      .right-about-top{
+         width: 100%;
+      }
+      #imagebackground{
+         margin-top: 40px;
+         width: fit-content;
+      }
+      #myprofile{
+         margin-top: -15px;
+      }
+
+   }
+
+   @media only screen and (max-width:1091px){
+      .right-about-top{
+         display: flex;
+         justify-content: center;
+      }
+      #imagebackground{
+         margin-top: 40px;
+         width: 300px;
+
+      }
+      #myprofile{
+         margin-top: -15px;
+         width: 400px;
+         margin-top: 12px;
+         margin-left: 10px
+ 
+      }
+
+   }
+@media only screen and (max-width:740px) {
+   .mkls{
+      margin-top: 20px;
+   }
+   .rkls{
+      margin-top: 20px;
+   }
+}
+   @media only screen and (max-width:625px){
+      .right-about-top{
+         display: flex;
+         justify-content: center;
+      }
+      #imagebackground{
+         margin-top: 40px;
+         width: 200px;
+
+      }
+      #myprofile{
+         margin-top: -15px;
+         width: 280px;
+         margin-top: 13px;
+         margin-left: 10px
+ 
+      }
+
+   }
+
+   @media only screen and (min-width:1318px){
+      #myprofile{
+         margin-top: 3.1%;
+      }
+      #imagebackground{
+         margin-top: 8%;
+      }
+      }
+      
